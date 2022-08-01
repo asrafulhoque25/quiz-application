@@ -1,0 +1,47 @@
+.App {
+  text-align: left;
+}
+
+.startBtn{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.questionCardWrapper{
+  background-color: aqua;
+  padding: 100px 60px;
+}
+
+.answerCardWrapper{
+  padding:5px 15px;
+  cursor: pointer;
+  transition: .3s all linear;
+}
+
+.answerCardWrapper:hover{
+ background-color: antiquewhite;
+}
+
+.correct{
+  border: 2px solid green !important;
+}
+
+.wrong{
+  border: 2px solid red;
+}
+
+.disable{
+  pointer-events: none;
+}
+
+.socreWrapper{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
